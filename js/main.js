@@ -23,6 +23,7 @@ renderer.toneMappingExposure = 1;
 renderer.outputEncoding = THREE.sRGBEncoding;
 // Контроллер
 const controls = new OrbitControls( camera, renderer.domElement );
+controls.enableZoom = false;
 controls.minDistance = 2;
 controls.maxDistance = 10;
 controls.maxPolarAngle = Math.PI/2;
