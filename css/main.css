@@ -1,18 +1,43 @@
 .contein{
+  width: 230px;
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: calc(50vh - 80px);
-  left: 100px;
+  top:50%;
+  transform: translateY(-50%);
+  left: 10%;
+  background: #ececec;
+  padding: 60px;
+  border-radius: 20px;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial;
+  font-size: 24px;
+  color: #4e4e4e;
+}
+h1{
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+p{
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 30px;
 }
 .add-sel, .rem-sel{
-  margin: 5px;
+  margin: 5px 0;
   padding: 10px 20px;
   border: 0px;
   border-radius: 10px;
-  background: white;
+  background: #f4d38c;#ff837a
+}
+.rem-sel{
+  background: #ff837a;
 }
 
-.add-sel:hover, .rem-sel:hover{
-  background: #efefef;
+.add-sel:hover{
+  background: #ebd9a7;
+}
+
+.rem-sel:hover{
+  background: #ff9f99;
 }
